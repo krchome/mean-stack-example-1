@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Sample CRUD application built with the MEAN stack.",
   "main": "index.js",
+   "engines": {
+    "node": "16.15.1"
+  },
   "scripts": {
     "start": "npm run prepare && concurrently \"npm run start:server\" \"npm run start:client\"",
     "start:server": "cd server && npm start",
